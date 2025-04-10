@@ -56,3 +56,26 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+
+## 📂 Repository Structure
+```
+data-warehouse-project/
+│
+├── datasets/                                      # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                                          # Project documentation and architecture details
+│   ├── etl.drawio                                 # Draw.io file shows all different techniquies and methods of ETL
+│   ├── draw_method_architecture.drawio            # Draw.io file shows the project's architecture
+│   ├── design_architecture_datawarehouse.drawio   # Draw.io file shows the design architecture
+│   ├── design_layer_of_datawarehouse.drawio       # Draw.io file shows the design layer of data warehouse
+│
+├── scripts/                                       # SQL scripts for ETL and transformations
+│   ├── bronze/                                    # Scripts for extracting and loading raw data
+│   ├── silver/                                    # Scripts for cleaning and transforming data
+│   ├── gold/                                      # Scripts for creating analytical models
+│
+├── README.md                                      # Project overview and instructions
+├── LICENSE                                        # License information for the repository
+
+```
+---
