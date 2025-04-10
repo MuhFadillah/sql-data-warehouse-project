@@ -75,7 +75,5 @@ data-warehouse-project/
 │   ├── gold/                                      # Scripts for creating analytical models
 │
 ├── README.md                                      # Project overview and instructions
-├── LICENSE                                        # License information for the repository
-
 ```
 ---
