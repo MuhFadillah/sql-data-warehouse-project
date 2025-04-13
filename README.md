@@ -69,6 +69,7 @@ data-warehouse-project/
 │   ├── design_architecture_datawarehouse.drawio   # Draw.io file shows the design architecture
 │   ├── design_layer_of_datawarehouse.drawio       # Draw.io file shows the design layer of data warehouse
 │   ├── data_flow.drawio                           # Draw.io file for the data flow diagram
+│   ├── data_models.drawio                         # Draw.io file for data models (star schema)
 │
 ├── scripts/                                       # SQL scripts for ETL and transformations
 │   ├── initializing database and schema/          # SQL scripts for create database and schema
