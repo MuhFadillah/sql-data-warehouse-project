@@ -73,10 +73,11 @@ data-warehouse-project/
 │
 ├── scripts/                                       # SQL scripts for ETL and transformations
 │   ├── initializing database and schema           # SQL scripts for create database and schema
+│   ├── create role user                           # SQL scripts for create role to access layer
 │   ├── bronze/                                    # Scripts for extracting and loading raw data
 │   ├── silver/                                    # Scripts for cleaning and transforming data
 │   ├── gold/                                      # Scripts for creating analytical models
 │
-├── README.md                                      # Project overview and instructions
+├── README.md                                      # Project overview
 ```
 ---
