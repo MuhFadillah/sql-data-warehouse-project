@@ -72,7 +72,7 @@ data-warehouse-project/
 │   ├── data_models.drawio                         # Draw.io file for data models (star schema)
 │
 ├── scripts/                                       # SQL scripts for ETL and transformations
-│   ├── initializing database and schema/          # SQL scripts for create database and schema
+│   ├── initializing database and schema           # SQL scripts for create database and schema
 │   ├── bronze/                                    # Scripts for extracting and loading raw data
 │   ├── silver/                                    # Scripts for cleaning and transforming data
 │   ├── gold/                                      # Scripts for creating analytical models
